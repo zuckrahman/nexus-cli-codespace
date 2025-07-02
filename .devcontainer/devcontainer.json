@@ -1,0 +1,7 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "features": {
+    "ghcr.io/devcontainers/features/rust:1": {}
+  },
+  "postCreateCommand": "apt update && apt install -y curl git build-essential pkg-config libssl-dev protobuf-compiler && curl https://cli.nexus.xyz/ | sh"
+}
